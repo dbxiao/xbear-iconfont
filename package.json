@@ -1,0 +1,23 @@
+{
+    "name": "xbear-iconfont",
+    "version": "0.0.1",
+    "description": "Automated text library update plugin",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dbxiao/xbear-iconfont.git"
+    },
+    "keywords": [
+        "Automated text library update plugin"
+    ],
+    "author": {
+        "name": "dbxiao"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "request": "2.81.0"
+    }
+}
