@@ -15,7 +15,7 @@ function iconfont(avgs){
         type   : avgs[2],                 // 操作类型： iconfont
         action : avgs[3],                 // 操作事件： -u[updata] -a[add] -d[delete] 
         url    : "http:"+avgs[4],         // 远程连接: "http://at.alicdn.com/t/font_ec6iu8c9k3u6usor.css"
-        path   : avgs[5] || "static/ui/"  // 目录 默认值：/static/ui/
+        path   : avgs[5] || "static/ui/"  // 目录 默认值：static/ui/
     }; 
 
     try{
@@ -45,7 +45,7 @@ iconfont.fn = {
      * 格式化链接
      */
     remoteURL: function(callback){
-        console.log($options.url.match(/http.*\./)[0]);
+        // console.log($options.url.match(/http.*\./)[0]);
         var fontArr = [
             $options.url.match(/http.*\./)[0]+"eot",
             $options.url.match(/http.*\./)[0]+"woff",
