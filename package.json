@@ -1,6 +1,6 @@
 {
     "name": "xbear-iconfont",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Automated text library update plugin",
     "main": "index.js",
     "scripts": {
@@ -16,8 +16,5 @@
     "author": {
         "name": "dbxiao"
     },
-    "license": "ISC",
-    "dependencies": {
-        "request": "2.81.0"
-    }
+    "license": "ISC"
 }
