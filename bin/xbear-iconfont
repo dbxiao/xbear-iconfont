@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var package = require('../package.json');
+var index = require("../index.js");
+
+program
+	.version(package.version)
+    .parse(process.argv);
+ 
+program
+    .command('updata')
+    .description('updata iconfont lib file and style file')
+    .action(function(options) {
+    	if(typeof options == "string"){
+    		index(process.argv);	
+    	}else{
+    		console.log("Error : please input iconfont url");
+    	}
+    });
+
+program.parse(process.argv);//开始解析用户输入的命令

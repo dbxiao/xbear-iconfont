@@ -1,10 +1,13 @@
 {
     "name": "xbear-iconfont",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Automated text library update plugin",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "xbear-iconfont": "./bin/xbear-iconfont"
     },
     "repository": {
         "type": "git",
@@ -18,6 +21,6 @@
     },
     "license": "ISC",
     "dependencies": {
-        "request": "2.81.0"
+        "commander": "2.9.0"
     }
 }
