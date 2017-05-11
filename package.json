@@ -16,5 +16,8 @@
     "author": {
         "name": "dbxiao"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "request": "2.81.0"
+    }
 }
